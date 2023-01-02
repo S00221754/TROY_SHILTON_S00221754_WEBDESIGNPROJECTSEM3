@@ -241,7 +241,40 @@
         width: 75%;
     }
 }
+
+
 @media  screen and (max-width: 600px) {
+
+    #shopSection
+    {
+        width: 80%;
+    }
+    #aboutText
+    {
+        width: 70%;
+    }
+    #user-login
+    {
+        margin: auto;
+        width: 65%;
+    }
+    #udeatails
+    {
+        margin: auto;
+        width: 75%;
+    }
+    #contactSection
+    {
+        width: 75%;
+
+    }
+    #user-checkout
+    {
+        margin: auto;
+        width: 65%;
+    }
+}
+@media  screen and (max-width: 500px) {
 
     #shopSection
     {
@@ -273,38 +306,6 @@
     }
     #sectionDeals
     {
-        width: 65%;
-    }
-}
-
-@media  screen and (max-width: 500px) {
-
-    #shopSection
-    {
-        width: 80%;
-    }
-    #aboutText
-    {
-        width: 70%;
-    }
-    #user-login
-    {
-        margin: auto;
-        width: 65%;
-    }
-    #udeatails
-    {
-        margin: auto;
-        width: 75%;
-    }
-    #contactSection
-    {
-        width: 75%;
-
-    }
-    #user-checkout
-    {
-        margin: auto;
         width: 65%;
     }
 }
