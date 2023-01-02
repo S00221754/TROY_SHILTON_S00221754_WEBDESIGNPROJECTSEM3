@@ -1,0 +1,7 @@
+Login details:
+Email: fred@email.com
+pw:fredgoat
+
+Checkout card details
+numbers: 1235 6758 9034 6503
+cvv : 987

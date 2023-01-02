@@ -1,0 +1,68 @@
+.navbar-custom {
+  border-bottom: #3C4048 solid 7px;
+  background-color: #00ABB3;
+}
+
+/************ Home page *********/
+#sectionCarousel {
+  border-bottom: #3C4048 solid 10px;
+}
+
+#sectionDeals {
+  background-color: #3C4048;
+  border: solid 25px;
+  border-color: #3C4048;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #00ABB3;
+  font-weight: bold;
+  -webkit-text-decoration: underline #3C4048;
+          text-decoration: underline #3C4048;
+}
+
+#shopSection {
+  background-color: #3C4048;
+  border: solid 25px;
+  border-color: #3C4048;
+  border-radius: 15px;
+}
+
+#Phones {
+  background-origin: #B2B2B2;
+}
+
+h5 {
+  color: #00ABB3;
+  text-shadow: 1px 1px black;
+}
+
+#contactSection {
+  background-color: #3C4048;
+}
+
+#aboutText {
+  background-color: #3C4048;
+  color: white;
+}
+
+#Link {
+  color: #00ABB3;
+}
+
+#Link:hover {
+  color: #04d1db;
+}
+
+legend {
+  color: #00ABB3;
+  font-weight: bold;
+  -webkit-text-decoration: underline #3C4048;
+          text-decoration: underline #3C4048;
+}
+
+#DetailSection {
+  color: white;
+  background-color: #3C4048;
+}/*# sourceMappingURL=styles.css.map */

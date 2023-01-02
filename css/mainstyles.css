@@ -1,0 +1,310 @@
+
+#sectionDeals
+{
+    margin-top: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 75%;
+    margin: auto;
+
+}
+.card img
+{
+    border-radius: 10px;
+    width: 50%; 
+    margin: auto;
+}
+#cardContent
+{
+    text-align: center;
+    padding-top: 10px;
+
+}
+#Title
+{
+    text-align: center;
+}
+#shopSection
+{
+    width: 70%;
+    margin: auto;
+}
+
+#shopSearch
+{
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+}
+#contactSection
+{
+    width: 80%;
+    margin:auto;
+}
+.carousel-caption {
+    margin-bottom: 23%;
+    opacity: 75%;
+    padding: 50px 100px;
+}
+.carousel-caption h1
+{
+    font-size: 7em;
+    text-transform:uppercase;
+    text-shadow: 3px 2px black;
+}
+.carousel-caption h5{
+    font-size: 5em;;
+    text-transform:uppercase;
+    text-shadow: 3px 2px black;
+}
+
+.carousel-caption p{
+    font-size:20px;
+}
+#aboutText
+{
+
+    width: 40%;
+    padding: 1em;
+    margin: auto;
+     text-align: center; 
+    font-size: 1.5em;
+    border-radius: 15px;
+    
+}
+#AboutImg
+{
+    border-radius: 15px;
+    padding-bottom: 2em;
+    width: 40%;
+}
+#Link
+{
+    text-decoration: none;
+}
+#ContactImg
+{
+    border-radius: 15px;
+    width: 60%;
+}
+#contactSection
+{
+    width: 65%;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+#NameInput
+{
+    margin: auto;
+    width: 100%;
+}
+#email
+{
+    margin: auto;
+    width: 85%;
+}
+#contactText
+{
+    width: 75%;
+    margin-left: 12.5%;
+}
+/* User details page */
+#form
+{
+    padding-top: 100px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+#checkoutform
+{
+    padding-top: 100px;
+    margin: auto;
+}
+#DetailSection
+{
+    width: 25%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+
+/*media queries */
+@media screen and (max-width: 1500px) {
+    .carousel-caption h1
+    {
+        font-size: 3em;
+        text-shadow: 2px 1px black;
+    }
+    .carousel-caption h5
+    {
+        font-size: 2em;
+        text-shadow: 2px 1px black;
+    }
+    #DetailSection
+    {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 920px) {
+
+    #shopSection
+    {
+        margin: auto;
+        width: 75%;
+    }
+    #aboutText
+    {
+        width: 75%;
+    }
+    #AboutImg
+    {
+        width: 50%;
+    }
+    .carousel-caption h1
+    {
+        font-size: 1.5em;
+        text-shadow: 1px 0.5px black;
+    }
+    .carousel-caption h5
+    {
+        font-size: 1em;
+        text-shadow: 1px 0.5px black;
+    }
+    #sectionDeals
+    {
+        width: 85%;
+    }
+    #user-login
+    {
+        width: 100%;
+    }
+    #udetails
+    {
+        width: 100%;
+    }
+    #contactSection
+    {
+        width: 75%;
+
+    }
+    #user-checkout
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media  screen and (max-width: 768px) {
+
+    #shopSection
+    {
+        width: 50%;
+    }
+    #aboutText
+    {
+        width: 85%;
+    }
+    #AboutImg
+    {
+        width: 50%;
+    }
+    #sectionDeals
+    {
+        width: 60%;
+    }
+    #user-login
+    {
+        margin: auto;
+        width: 75%;
+    }
+    #udetails
+    {
+        margin: auto;
+        width: 75%;
+    }
+    #DetailSection 
+    {
+        width: 50%; 
+        margin: auto;
+    }
+    #contactSection
+    {
+        width: 85%;
+
+    }
+    #user-checkout
+    {
+        margin: auto;
+        width: 75%;
+    }
+}
+@media  screen and (max-width: 600px) {
+
+    #shopSection
+    {
+        width: 100%;
+    }
+    #aboutText
+    {
+        width: 90%;
+    }
+    #user-login
+    {
+        margin: auto;
+        width: 85%;
+    }
+    #udeatails
+    {
+        margin: auto;
+        width: 85%;
+    }
+    #contactSection
+    {
+        width: 95%;
+
+    }
+    #user-checkout
+    {
+        margin: auto;
+        width: 85%;
+    }
+    #sectionDeals
+    {
+        width: 65%;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+
+    #shopSection
+    {
+        width: 80%;
+    }
+    #aboutText
+    {
+        width: 70%;
+    }
+    #user-login
+    {
+        margin: auto;
+        width: 65%;
+    }
+    #udeatails
+    {
+        margin: auto;
+        width: 75%;
+    }
+    #contactSection
+    {
+        width: 75%;
+
+    }
+    #user-checkout
+    {
+        margin: auto;
+        width: 65%;
+    }
+}

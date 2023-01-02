@@ -1,0 +1,92 @@
+$main-color:#00ABB3;
+$second-color: #3C4048;
+$accent-color: #B2B2B2;
+$extra-color: #EAEAEA;
+$shadow: black;
+$light: white;
+
+//navbar custom
+.navbar-custom
+{
+    border-bottom: $second-color solid 7px;
+    background-color: $main-color;
+}
+/************ Home page *********/
+//carousel styles
+#sectionCarousel
+{
+    border-bottom: $second-color solid 10px;
+}
+//deals 
+#sectionDeals
+{
+    background-color: $second-color;
+    border: solid 25px;
+    border-color: $second-color;
+    border-radius: 15px;
+}
+h1
+{
+    color: $main-color;
+    font-weight: bold;
+    text-decoration: underline $second-color;
+}
+
+
+//shop page css
+#shopSection
+{
+    background-color: $second-color;
+    border: solid 25px;
+    border-color: $second-color;
+    border-radius: 15px;
+}
+#Phones
+{
+    background-origin: $accent-color;
+    
+}
+
+h5
+{
+    color: #00ABB3;
+    text-shadow: 1px 1px $shadow;
+}
+
+
+//Contact
+#contactSection
+{
+
+    background-color: #3C4048;
+}
+
+
+//About us
+#aboutText
+{
+    
+    background-color: #3C4048;
+    color: white;
+}
+#Link
+{
+    color: $main-color;
+}
+#Link:hover
+{
+    color: #04d1db;
+}
+
+//user details
+legend
+{
+    color: $main-color;
+    font-weight: bold;
+    text-decoration: underline $second-color;
+}
+#DetailSection
+{
+    color: white;
+    background-color: $second-color;
+}
